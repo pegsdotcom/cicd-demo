@@ -32,6 +32,7 @@ function SignupForm() {
   }
 
   return (
+    
     <form onSubmit={handleSubmit} noValidate>
       <div style={{ marginBottom: '1rem' }}>
         <label>
@@ -99,6 +100,7 @@ function SignupForm() {
         </p>
       )}
     </form>
+    
   );
 }
 
