@@ -21,7 +21,7 @@ jobs:
     include:
     paths:
     - 'frontend/**'
-    - '.github/workflow/ci.yml'
+    - '.github/workflows/ci.yml'
     steps:
     - uses: actions/checkout@v4
     - run: npm ci
