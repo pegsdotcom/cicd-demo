@@ -9,6 +9,11 @@ on:
   pull_request:
     branches: [ "pegah" ]
 
+include:
+  paths:
+    - 'frontend/**'
+    - '.github/workflow/ci.yml'
+    
 jobs:
   build:
 
